@@ -1,0 +1,133 @@
+
+/*Thmes Default CSS*/
+
+*{
+    margin:0;
+}
+.container{
+   width: 540px;
+   margin: 5% auto;
+   
+}
+body{
+    background: url(../img/bg-image\ .jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.registration-page {
+	padding-top: 40px;
+    padding-bottom: 45px;
+}
+img {
+	margin: 0px auto;
+	display: block;
+	background: none;
+}
+.login-form {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: #fff;
+	width: 100%;
+	border-radius: 8px;
+}
+.login-content h1 {
+	color: rgb(0, 147, 255);
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.login-content h2 {
+	text-transform: uppercase;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.form-location {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 14px;
+	padding-left: 12px;
+	width: 100%;
+	font-size: 15px;
+}
+.login-content .btn {
+	border: none;
+	padding: 11px 31px;
+	background: rgb(0, 147, 255);
+	font-size: 17px;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-top: 18px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+.login-content .btn:hover{
+    cursor: pointer;
+    transition: .4s;
+	color: black;
+	background-color:#ddd;
+}
+.reset-password {
+	background: #ddd;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-left: 14px;
+}
+.reset-password:hover{
+    background: rgb(0, 147, 255); 
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+}
+.social-media p {
+	padding-top: 33px;
+	padding-bottom: 8px;
+	font-weight: 600;
+	font-size: 17px;
+}
+.social-media {
+	padding-bottom: 25px;
+}
+.social-media a {
+	text-decoration: none;
+	padding-right: 20px;
+}
+.social-media a:hover {
+	font-weight: 600;
+	transition: .4s;
+}
+
+.Sign-up a {
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #222;
+	background: #ddd;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.Sign-up a:hover {
+	background: rgb(0, 147, 255);
+	color: #fff;
+	opacity: .8;
+	transition: .4s;
+}
+
+
+/*Rigistration Form*/
+.rario-btn {
+	margin-bottom: 9px;
+	margin-top: 8px;
+}
+
